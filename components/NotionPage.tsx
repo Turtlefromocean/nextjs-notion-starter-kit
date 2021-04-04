@@ -267,7 +267,8 @@ export const NotionPage: React.FC<types.PageProps> = ({
         defaultPageCoverPosition={config.defaultPageCoverPosition}
         mapPageUrl={siteMapPageUrl}
         mapImageUrl={mapNotionImageUrl}
-        searchNotion={searchNotion}
+        //검색 기능 제거!
+        //searchNotion={searchNotion}
         pageFooter={comments}
         pageAside={pageAside}
         footer={
